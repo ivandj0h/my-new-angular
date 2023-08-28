@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-new-angular';
+  parentMessage: string = "Message from parent Updated!";
 }
