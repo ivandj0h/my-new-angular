@@ -16,6 +16,9 @@ export class PostComponent implements OnInit {
   // Share the data from parent to child
   postParentMessage: string = "Message from Post Component as a Parent";
 
+  // Share the data from child to parent
+  childMessage: string = "Message from Post Component as a Child";
+
   constructor() {
   }
 
